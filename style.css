@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header {
+  background-color: #ec715f;
+}
+header ul {
+  width: 1024px;
+  height: 70px;
+  margin: 0 auto;
+}
+header li {
+  list-style: none;
+  height: 70px;
+}
+.nav-logo {
+  float: left;
+}
+.nav-icon {
+  color: #fafafa;
+  font-size: 16px;
+  padding: 25px 30px;
+  display: inline-block;
+  float: right;
+}
